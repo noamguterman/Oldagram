@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 12px;
+}
+
+.post {
+  background-color: white;
+  margin: 60px 0;
+  border-bottom: 5px solid #c6c6c6;
+}
+
+.post:first-of-type {
+  margin: 0;
+}
+
+.post:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.logo {
+  width: 127px;
+}
+
+.user--avatar {
+  width: 34px;
+  border-radius: 50%;
+}
+
+.post--userinfo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.user--name {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0;
+}
+
+.user--location {
+  margin: 0;
+}
+
+.user--post {
+  width: 100%;
+}
+
+.post--buttons {
+  margin-top: 5px;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.3;
+}
+
+.btn--heart,
+.btn--comment,
+.btn--dm {
+  width: 23px;
+  padding: 0 10px;
+}
+
+.likes {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 15px 10px 5px 10px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.post--text {
+  margin: 5px 10px 55px 10px;
+}
+
+.post--text:last-of-type {
+  margin-bottom: 25px;
+}
